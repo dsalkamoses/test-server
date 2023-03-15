@@ -6,7 +6,7 @@ fastify.get('/', async (request, reply) => {
   return { hello: 'Nikhil' }
 })
 
-//server
+//server for ecs
 const start = async () => {
   try {
     await fastify.listen({ host: '0.0.0.0', port: 8080 })
