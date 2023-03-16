@@ -1,9 +1,8 @@
 name: Deploy to Amazon ECS
 on:
-  create:
+  push:
     branches: [ master ]
-    tags:
-      - .*
+    
 env:
   AWS_REGION: ap-south-1                   
   ECR_REPOSITORY: service-test-ecr        
