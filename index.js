@@ -3,7 +3,7 @@ const fastify = require('fastify')({
 })
 
 fastify.get('/', async (request, reply) => {
-  return { hello: 'Nikhil' }
+  return { hello: 'World' }
 })
 
 //server for ecs new
